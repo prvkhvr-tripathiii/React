@@ -48,13 +48,13 @@ function App() {
       {/* <div className="flex flex-col items-center justify-center min-h-screen w-full"> */}
         <h1 className="bg-orange-100 text-4xl font-bold text-center shadow-md m-10">Password Generator</h1>
 
-        <div className="bg-orange-100 rounded pt-7 pb-5 gap-2 min-w-md max-w-xl mx-auto rounded-xl flex flex-col shadow-xl">
+        <div className="bg-orange-100 rounded pt-7 pb-5 gap-2 min-w-md max-w-xl mx-auto flex flex-col shadow-xl">
 
           <div id="inputBox" className="flex justify-center overflow-hidden mb-4"> 
 
             <input type="text" readOnly  
             className="border-l border-y border-blue-500 focus:outline-none focus:ring focus:ring-blue-600 p-3 rounded-l-full h-10 w-90 bg-blue-50"
-            value={password}
+            value={password} 
             ref={passwordRef}></input>
 
             <button className="text-white bg-blue-500 hover:bg-blue-600 py-2 px-6 rounded-r-full shrink-0 active:bg-blue-900 active:px-7"
